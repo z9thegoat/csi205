@@ -1,0 +1,28 @@
+.calculator {
+  border: 3px solid black;
+  border-radius: 30px;
+  width: 100vw;
+  max-width: 650px;
+  padding: 1rem;
+  margin: 2rem auto;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.cal-container {
+  border-radius: 30px;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 10px !important;
+}
+
+.btn-outline-primary,
+.btn-outline-secondary {
+  margin: 0 2px;
+}
+
