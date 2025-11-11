@@ -73,7 +73,7 @@ const Todo = () => {
   };
 
   return (
-    <>
+    <div className="mt-3">
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Add Todo</Modal.Title>
@@ -239,7 +239,7 @@ const Todo = () => {
         </Button>
         &nbsp;
       </div>
-    </>
+    </div>
   );
 };
 export default Todo;

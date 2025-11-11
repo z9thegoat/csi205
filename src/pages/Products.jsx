@@ -2,7 +2,7 @@ import { Button, Card } from "react-bootstrap";
 import "./products.css";
 const Products = ({ products , carts, setCarts }) => {
   return (
-    <div className="product-itemps-container">
+    <div className="product-itemps-container mt-3">
       {products.map((product) => {
         return (
           <Card style={{ width: "18rem" }} key={product.id}>
