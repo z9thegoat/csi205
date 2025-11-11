@@ -1,8 +1,0 @@
-.product-itemps-container{
-display: grid;
-grid-template-columns: repeat(3,1fr);
-gap: 1rem;
-overflow-y: auto;
-height: 560px;
-align-items: start;
-}
